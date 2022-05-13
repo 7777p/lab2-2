@@ -1,0 +1,12 @@
+[{
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.closeWindow",
+},{
+    "key": "ctrl+alt",
+    "command": "type",
+    "args": { "text": "'" },
+    "when": "editorTextFocus"
+},{
+    "key": "tab s",
+    "command": "workbench.action.openSettings",
+}]
