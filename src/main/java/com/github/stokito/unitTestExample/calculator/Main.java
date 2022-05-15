@@ -8,17 +8,17 @@ public class Main {
 	public static void main(
 			String[] args) {
 		Calculator obj = new Calculator();
-		Scanner in = new Scanner(
+		Scanner sc = new Scanner(
 				System.in);
 		System.out.print(
 				"Введите число a: ");
-		int a = in.nextInt();
+		int a = sc.nextInt();
 		System.out.print(
 				"Введите число b : ");
-		int b = in.nextInt();
+		int b = sc.nextInt();
 		System.out.println(
 				"\nВыберите действие(1-сложение,2-вычетание,3-умножение,4-деление):");
-		int k = in.nextInt();
+		int k = sc.nextInt();
 		System.out.print(
 				"\nРезультат:");
 		switch (k) {
