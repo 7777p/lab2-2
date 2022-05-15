@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.stokito</groupId>
+  <artifactId>calculator-unit-test-example-java</artifactId>
+  <name>Calculator unit test example in Java</name>
+  <version>1.0-SNAPSHOT</version>
+  <description>Simple jUnit test example</description>
+  <url>http://stokito.blogspot.com/2013/02/blog-post_27.html</url>
+  <issueManagement>
+    <url>https://github.com/stokito/calculator-unit-test-example-java/issues</url>
+  </issueManagement>
+  <inceptionYear>2013</inceptionYear>
+  <developers>
+    <developer>
+      <id>stokito</id>
+      <name>Sergey Ponomarev</name>
+      <email>stokito@gmail.com</email>
+      <url>http://stokito.name</url>
+      <timezone>+2</timezone>
+      <properties>
+        <skype>stokito</skype>
+        <gtalk>stokito@gmail.com</gtalk>
+      </properties>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/stokito/calculator-unit-test-example-java.git</connection>
+    <url>https://github.com/stokito/calculator-unit-test-example-java</url>
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer />
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

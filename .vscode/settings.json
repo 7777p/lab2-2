@@ -3,5 +3,6 @@
     "[java]": {
         "editor.tabSize": 6,
         "editor.insertSpaces": false
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
